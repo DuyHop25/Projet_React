@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "../css/global.css";
 import { product } from '../constants/dataHome';
 
 function Product() {

@@ -1,8 +1,7 @@
 import React from 'react'
-import "../css/global.css";
-import hero1 from "../img/hero/hero-1-1.jpg"
-import hero2 from "../img/hero/hero-1-2.jpg"
-import hero3 from "../img/hero/hero-1-3.jpg"
+// import hero1 from "../img/hero/hero-1-1.jpg"
+// import hero2 from "../img/hero/hero-1-2.jpg"
+// import hero3 from "../img/hero/hero-1-3.jpg"
 
 function HeroCarousel() {
   return (
@@ -10,7 +9,7 @@ function HeroCarousel() {
       <div className="vs-carousel" data-fade="true" data-arrows="true" data-dots="true">
         <div>
           <div className="hero-inner">
-            <div className="hero-bg" data-bg-src={hero1} ></div>
+            <div className="hero-bg" data-bg-src={"hero1"} ></div>
             <div className="vs-circle animated"></div>
             <div className="container">
               <div className="hero-content">
@@ -23,8 +22,6 @@ function HeroCarousel() {
             </div>
           </div>
         </div>
-
-        
       </div>
     </section>
   );

@@ -1,8 +1,7 @@
 import React from 'react'
-import "../css/global.css";
-import logo_white from "../img/logo-white.svg"
-import recent_course_1 from "../img/course/recent-course-1-1.jpg"
-import recent_course_2 from "../img/course/recent-course-1-2.jpg"
+// import logo_white from "../img/logo-white.svg"
+// import recent_course_1 from "../img/course/recent-course-1-1.jpg"
+// import recent_course_2 from "../img/course/recent-course-1-2.jpg"
 
 
 
@@ -12,7 +11,6 @@ function Footer() {
     <div>
         <footer className="footer-wrapper footer-layout1">
         <div className="shape-mockup jump d-none d-xxxl-block" data-bottom="0%" data-left="-270px">
-            <div className="vs-border-circle"></div>
         </div>
         <div className="widget-area">
             <div className="container">
@@ -20,7 +18,7 @@ function Footer() {
                     <div className="col-md-6 col-xl-auto">
                         <div className="widget footer-widget">
                             <div className="vs-widget-about">
-                                <div className="footer-logo"> <a href="index.html"><img src={logo_white}  alt="logo"/></a> </div>
+                                <div className="footer-logo"> <a href="index.html"><img src={"logo_white"}  alt="logo"/></a> </div>
                                 <p className="footer-text">Lorem ipsum dolor sit amet, consectet rem ips dolor sit amet. sum dolor sit amet, consectet e dolor sit amet, comod.</p>
                                 <p className="footer-info"><i className="fal fa-phone-alt"></i><a className="text-inherit" href="tel:++11234562228">(00) 123 456 789</a></p>
                                 <p className="footer-info"><i className="fal fa-envelope"></i><a className="text-inherit" href="mailto:info@example.com">hello@domainname.com</a></p>
@@ -60,14 +58,14 @@ function Footer() {
                             <h3 className="widget_title">Recent Courses</h3>
                             <div className="recent-post-wrap">
                                 <div className="recent-course">
-                                    <div className="media-img"><a href="course-details.html"><img src={recent_course_1} alt="Blog Image" /></a></div>
+                                    <div className="media-img"><a href="course-details.html"><img src={"recent_course_1"} alt="Blog Image" /></a></div>
                                     <div className="media-body">
                                         <div className="recent-course-meta"><a href="team-details.html">BY ANA WATSON</a></div>
                                         <h4 className="post-title"><a className="text-inherit" href="course-details.html">Web Coding and Apache Basics theory</a></h4>
                                     </div>
                                 </div>
                                 <div className="recent-course">
-                                    <div className="media-img"><a href="course-details.html"><img src={recent_course_2} alt="Blog Image" /></a></div>
+                                    <div className="media-img"><a href="course-details.html"><img src={"recent_course_2"} alt="Blog Image" /></a></div>
                                     <div className="media-body">
                                         <div className="recent-course-meta"><a href="team-details.html">BY ANA WATSON</a></div>
                                         <h4 className="post-title"><a className="text-inherit" href="course-details.html">Tadit Soul Can Tech Us About Web Docan</a></h4>

@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
-import "../css/global.css";
 import { Event } from '../constants/dataHome';
 
 function EventArea() {
     const [dataEvent , setDataEvent] = useState([...Event]);
   return (
     <div>
-        <section className="overflow-hidden space-top space-extra-bottom">
-        <div className="event-shape1"></div>
+        <section className="overflow-hidden space-top space-extra-bottom">  
         <div className="shape-mockup jump d-none d-xxl-block" data-bottom="26%" data-right="-270px">
             <div className="vs-border-circle"></div>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
-import "../css/global.css";
-import logo from "../img/logo.svg"
+// import logo from "../img/logo.svg"
 
 
 function Headers() {
@@ -36,7 +35,7 @@ function Headers() {
                     <div className="container position-relative z-index-common">
                         <div className="row align-items-center justify-content-between">
                             <div className="col-auto">
-                                <div className="vs-logo"> <a href="index.html"><img src={logo} width="250px" height="50px"  alt="logo" /></a></div>
+                                <div className="vs-logo"> <a href="index.html"><img src={"logo"} width="250px" height="50px"  alt="logo" /></a></div>
                             </div>
                             <div className="col text-end text-xl-center">
                                 <nav className="main-menu menu-style1 d-none d-lg-block">

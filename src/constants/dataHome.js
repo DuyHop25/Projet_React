@@ -1,9 +1,9 @@
-import feature_icon1 from "../img/icon/feature-icon-1-1.svg"
-import feature_icon2 from "../img/icon/feature-icon-1-2.svg"
-import feature_icon3 from "../img/icon/feature-icon-1-3.svg"
-import course1 from "../img/course/course-1-1.png"
-import course2 from "../img/course/course-1-2.png"
-import course3 from "../img/course/course-1-3.png"
+import feature_icon1 from "../assets/img/icon//feature-icon-1-1.svg"
+import feature_icon2 from "../assets/img/icon/feature-icon-1-2.svg"
+import feature_icon3 from "../assets/img/icon/feature-icon-1-3.svg"
+import course1 from "../assets/img/course/course-1-1.png"
+import course2 from "../assets/img/course/course-1-2.png"
+import course3 from "../assets/img/course/course-1-3.png"
 
 
 const course = [
