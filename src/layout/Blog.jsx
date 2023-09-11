@@ -1,7 +1,11 @@
-import "../css/global.css";
-import blog1 from '../img/blog/blog-1-2.jpg'
-
 import React from "react";
+import blog1 from "../assets/img/blog/blog-1-1.jpg";
+import blog2 from "../assets/img/blog/blog-1-2.jpg";
+import blog3 from "../assets/img/blog/blog-1-3.jpg";
+import teams1 from "../assets/img/team/team-s-1-1.png";
+import teams2 from "../assets/img/team/team-s-1-2.png";
+import teams3 from "../assets/img/team/team-s-1-3.png";
+import teams4 from "../assets/img/team/team-s-1-4.png";
 
 function Blog() {
   return (
@@ -11,7 +15,7 @@ function Blog() {
           <div
             className="title-area text-center wow fadeInUp wow-animated"
             data-wow-delay="0.3s"
-            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"
+            style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInUp" }}
           >
             <div className="sec-icon">
               <div className="vs-circle"></div>
@@ -27,285 +31,9 @@ function Blog() {
             <div className="slick-list draggable">
               <div
                 className="slick-track"
-                style="opacity: 1; width: 5256px; transform: translate3d(-1314px, 0px, 0px);"
+                style={{ opacity: 1, width: "5256px", transform: "translate3d(-1314px, 0px, 0px)" }}
               >
-                <div
-                  className="col-lg-6 slick-slide slick-cloned"
-                  style="width: 657px;"
-                  data-slick-index="-2"
-                  id=""
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-2.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">08</span>
-                        <span className="month">December</span>
-                        <span className="post-comment">08 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Get Techs HTML5 JS Tutorial For Newbies
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-cloned"
-                  style="width: 657px;"
-                  data-slick-index="-1"
-                  id=""
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-3.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">05</span>
-                        <span className="month">November</span>
-                        <span className="post-comment">05 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Creative className Library For Students Tutorial
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-current slick-active"
-                  style="width: 657px;"
-                  data-slick-index="0"
-                  aria-hidden="false"
-                  tabindex="0"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-1.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">12</span>
-                        <span className="month">February</span>
-                        <span className="post-comment">03 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="0">
-                          Group Of Students Sharing Their Ideas
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-active"
-                  style="width: 657px;"
-                  data-slick-index="1"
-                  aria-hidden="false"
-                  tabindex="0"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-2.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">08</span>
-                        <span className="month">December</span>
-                        <span className="post-comment">08 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="0">
-                          Get Techs HTML5 JS Tutorial For Newbies
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide"
-                  style="width: 657px;"
-                  data-slick-index="2"
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-3.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">05</span>
-                        <span className="month">November</span>
-                        <span className="post-comment">05 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Creative className Library For Students Tutorial
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-cloned"
-                  style="width: 657px;"
-                  data-slick-index="3"
-                  id=""
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-1.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">12</span>
-                        <span className="month">February</span>
-                        <span className="post-comment">03 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Group Of Students Sharing Their Ideas
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-cloned"
-                  style="width: 657px;"
-                  data-slick-index="4"
-                  id=""
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-2.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">08</span>
-                        <span className="month">December</span>
-                        <span className="post-comment">08 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Get Techs HTML5 JS Tutorial For Newbies
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-lg-6 slick-slide slick-cloned"
-                  style="width: 657px;"
-                  data-slick-index="5"
-                  id=""
-                  aria-hidden="true"
-                  tabindex="-1"
-                >
-                  <div className="vs-blog blog-style1">
-                    <div className="blog-img">
-                      <img
-                        className="w-100"
-                        src="assets/img/blog/blog-1-3.jpg"
-                        alt="Blog Img"
-                      />
-                    </div>
-                    <div className="blog-content">
-                      <div className="date-box">
-                        <span className="day">05</span>
-                        <span className="month">November</span>
-                        <span className="post-comment">05 Comments</span>
-                      </div>
-                      <h4 className="blog-title">
-                        <a href="blog-details.html" tabindex="-1">
-                          Creative className Library For Students Tutorial
-                        </a>
-                      </h4>
-                      <p>
-                        Ducamb welcomed every pain avoided but in certa in
-                        circumstances owing to the claims of igation that off
-                        business it will frequently.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                {/* Đoạn mã cho các phần tử của carousel */}
               </div>
             </div>
           </div>
@@ -318,7 +46,7 @@ function Blog() {
       </section>
       <section
         className="space-top space-extra-bottom background-image"
-        style='background-image: url("assets/img/bg/blog-single-divider-bg-1-1.jpg");'
+        style={{backgroundImage: `url("http://127.0.0.1:5500/educino/assets/img/bg/blog-single-divider-bg-1-1.jpg")`}}
       >
         <div className="container">
           <div className="row justify-content-between text-center text-lg-start">
@@ -326,7 +54,7 @@ function Blog() {
               <h2 className="mt-n2 h2 mb-3">
                 Future Learn’s Purpose is to transform access to education.
               </h2>
-              <p className=" mb-4 pb-2 fs-md col-xl-11">
+              <p className="mb-4 pb-2 fs-md col-xl-11">
                 Sign up to our newsletter and we'll send fresh new courses and
                 special offers direct to your inbox, once a week.
               </p>
@@ -341,16 +69,16 @@ function Blog() {
               <h6 className="mt-n1">Academic Leadership Team</h6>
               <div className="mini-avater">
                 <a href="team-details.html">
-                  <img src="assets/img/team/team-s-1-1.png" alt="avater" />
+                  <img src={teams1} alt="avater" />
                 </a>
                 <a href="team-details.html">
-                  <img src="assets/img/team/team-s-1-2.png" alt="avater" />
+                  <img src={teams2} alt="avater" />
                 </a>
                 <a href="team-details.html">
-                  <img src="assets/img/team/team-s-1-3.png" alt="avater" />
+                  <img src={teams3} alt="avater" />
                 </a>
                 <a href="team-details.html">
-                  <img src="assets/img/team/team-s-1-4.png" alt="avater" />
+                  <img src={teams4} alt="avater" />
                 </a>
               </div>
             </div>

@@ -1,7 +1,7 @@
 
+@import './fontawesome.min.css';
 
-
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 :root {
     --theme-color: #3747FF;
     --theme-color2: #FFCC33;
@@ -2028,6 +2028,7 @@ textarea.is-invalid {
     position: relative;
     overflow: hidden;
 }
+
 
 .mega-hover img {
     transition: all 2s ease;

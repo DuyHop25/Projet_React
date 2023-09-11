@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import about from "../assets/img/about/";
-// import author from "../assets/img/about/author-1-1.jpg";
+import about from "../assets/img/about/about-1-1.jpg"
+import author from "../assets/img/about/author-1-1.png";  
 
 import { course } from "../constants/dataHome";
 
@@ -76,7 +76,7 @@ function Features() {
             <div className="col-lg-7 col-xxl-7">
               <div className="img-box3">
                 <div className="img-1 mega-hover">
-                  {/* <img className="w-100" src={about} alt="About Img" /> */}
+                  <img className="w-100" src={about} alt="About Img" />
                 </div>
                 <div className="shape-dotted jump"></div>
               </div>
@@ -94,7 +94,7 @@ function Features() {
               </p>
               <div className="media-style1">
                 <div className="media-img">
-                  {/* <img src={author} alt="About Author" /> */}
+                  <img src={author} alt="About Author" />
                 </div>
                 <div className="media-body">
                   <span className="media-label">Thomas Walkar</span>

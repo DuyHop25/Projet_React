@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { product } from '../constants/dataHome';
+import about from "../assets/img/about/about-1-1.jpg"
 
 function Product() {
     // const [dataProduct ,setProduct] = useState([...product]);
@@ -12,7 +13,7 @@ function Product() {
                     <div className="img-box1">
                         <div className="vs-circle">
                             <div className="mega-hover">
-                                <img src="assets/img/about/about-1-1.png" alt="banner" />
+                                <img src={about} alt="banner" style={{width:"480px",height:"480px"}}/>
                             </div>
                         </div>
                     </div>
@@ -61,7 +62,10 @@ function Product() {
             </div>
         </div>
     </section> 
-    <section className="space-top space-extra-bottom" data-bg-src="assets/img/bg/course-bg-pattern.jpg">
+    <section className="space-top space-extra-bottom" data-bg-src="assets/img/bg/course-bg-pattern.jpg"
+    style={{
+        backgroundImage: `url("http://127.0.0.1:5500/educino/assets/img/bg/course-bg-pattern.jpg")`
+      }}>
         <div className="container-lg">
             <div className="title-area text-center wow fadeInUp" data-wow-delay="0.3s">
                 <div className="sec-icon">

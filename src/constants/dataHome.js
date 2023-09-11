@@ -1,9 +1,9 @@
 import feature_icon1 from "../assets/img/icon//feature-icon-1-1.svg"
 import feature_icon2 from "../assets/img/icon/feature-icon-1-2.svg"
 import feature_icon3 from "../assets/img/icon/feature-icon-1-3.svg"
-import course1 from "../assets/img/course/course-1-1.png"
-import course2 from "../assets/img/course/course-1-2.png"
-import course3 from "../assets/img/course/course-1-3.png"
+// import course1 from "../../assets/img/course/course-1-1.png"
+// import course2 from "../assets/img/course/course-1-2.png"
+// import course3 from "../assets/img/course/course-1-3.png"
 
 
 const course = [
@@ -31,7 +31,7 @@ const course = [
 
 const product = [
     {
-        img:course1,
+        img:"../../assets/img/course/course-1-1.png",
         majors: "Technology",
         video: "https://www.youtube.com/watch?v=_sI_Ps7JSEk",
         reviews: "(5.0)",
@@ -42,7 +42,7 @@ const product = [
         hour: "5h 11m", 
         date : "10 Augest 2023"
     },{
-        img:course2,
+        img:"../../assets/img/course/course-1-2.png",
         majors: "Technology",
         video: "https://www.youtube.com/watch?v=_sI_Ps7JSEk",
         reviews: "(5.0)",
@@ -53,7 +53,7 @@ const product = [
         hour: "5h 11m", 
         date : "10 Augest 2023"
     },{
-        img: course3,
+        img: "../../assets/img/course/course-1-3.png",
         majors: "Technology",
         video: "https://www.youtube.com/watch?v=_sI_Ps7JSEk",
         reviews: "(5.0)",
@@ -110,6 +110,144 @@ const Event = [
     form: "Online",
     Speaker: "14 Speaker"
   }
-]
+];
 
-export { course , product ,QualifiedTeachers , Event};
+const courses = [
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  {
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },{
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },{
+    image: '../assets/img/course/course-1-1.png',
+    category: 'Technology',
+    categoryLink: 'course.html',
+    videoLink: 'https://www.youtube.com/watch?v=_sI_Ps7JSEk',
+    starRating: 5,
+    rating: '5.0',
+    price: '$778',
+    name: "Advance Begineer's Goal & Managing Course",
+    teacher: 'Ana Watson',
+    teacherLink: 'team-details.html',
+    students: '755 Students',
+    duration: '2h 11m',
+    date: '11 March 2023',
+  },
+  // Add more course objects here
+];
+
+
+export { course , product ,QualifiedTeachers , Event,courses};
