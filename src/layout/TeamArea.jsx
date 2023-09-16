@@ -48,7 +48,7 @@ function TeamArea() {
             <div className="col-lg-7 col-xl-6 align-self-end">
               <div className="img-box2">
                 <div className="vs-circle"></div>
-                <img className="img-1" src={about} alt="" />
+                <img className="img-1" src="https://cms.kmin.edu.vn/uploads/4_e7bc613599.png" alt="" />
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ function TeamArea() {
             data-sm-slide-show="2"
             data-center-mode="true"
           >
-            {QualifiedTeachers.map((i) => (
+            {QualifiedTeachers.slice(0,3).map((i) => (
               <div className="col-sm-6 col-lg-4">
                 <div className="team-style1">
                   <div className="team-img">
@@ -116,12 +116,11 @@ function TeamArea() {
         <div className="container text-center">
             <span className="sec-subtitle2">You can list your <b><u>partners or instructor's</u></b> brands here!</span>
             <div className="row vs-carousel wow fadeInUp" data-wow-delay="0.4s" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2">
-                <div className="col-auto"><img src={brand1} alt="brand"/></div>
-                <div className="col-auto"><img src={brand2} alt="brand"/></div>
-                <div className="col-auto"><img src={brand3} alt="brand"/></div>
-                <div className="col-auto"><img src={brand4} alt="brand"/></div>
-                <div className="col-auto"><img src={brand5} alt="brand"/></div>
-                <div className="col-auto"><img src={brand1} alt="brand"/></div>
+                <div className="col-auto"><img src="https://tse1.mm.bing.net/th?id=OIP.C2n480dSfal6Pw4HVOKbGwAAAA&pid=Api&P=0&h=180" alt="brand"/></div>
+                <div className="col-auto"><img src="https://tse2.explicit.bing.net/th?id=OIP.lmffNjeSaF4tPbOiYNgD2QHaHa&pid=Api&P=0&h=180" alt="brand"/></div>
+                <div className="col-auto"><img src="https://tse1.mm.bing.net/th?id=OIP.EZyBdo3Wgo3b370BwIOMLAHaEK&pid=Api&P=0&h=180" alt="brand"/></div>
+                <div className="col-auto"><img src="https://tse1.mm.bing.net/th?id=OIP.E46V50MHRxz9A81_s_Eh7AAAAA&pid=Api&P=0&h=180" alt="brand"style={{width:"150px" ,height:"110px"}}/></div>
+                <div className="col-auto"><img src="https://tse2.mm.bing.net/th?id=OIP.UKDq5ptr_orT9pcpWc1wcgHaD8&pid=Api&P=0&h=180" alt="brand" style={{width:"100px" ,height:"100px"}}/></div>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Introduce = () => {
   return (
-    <div className="breadcumb-wrapper background-image" style={{ backgroundImage: 'url("http://127.0.0.1:5500/educino/assets/img/breadcumb/breadcumb-bg.png")' }}>
+    <div className="breadcumb-wrapper background-image">
       <div className="container z-index-common">
         <div className="breadcumb-content">
           <h1 className="breadcumb-title">Our Courses</h1>

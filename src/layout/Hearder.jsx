@@ -40,21 +40,21 @@ function Headers() {
                             <div className="col text-end text-xl-center">
                                 <nav className="main-menu menu-style1 d-none d-lg-block">
                                     <ul>
-                                        <li className="menu-item-has-children"> <a href="index.html">Demos</a>
+                                        <li className="menu-item-has-children"> <a href="/home">Demos</a>
                                             <ul className="sub-menu">
-                                                <li><a href="index.html">Demo Style 1</a></li>
-                                                <li><a href="index-2.html">Demo Style 2</a></li>
-                                                <li><a href="index-3.html">Demo Style 3</a></li>
+                                                <li><a href="/home">Demo Style 1</a></li>
+                                                <li><a href="/home">Demo Style 2</a></li>
+                                                <li><a href="/home">Demo Style 3</a></li>
                                             </ul>
                                         </li>
                                         <li> <a href="about.html">About Us</a> </li>
                                         <li className="menu-item-has-children">
-                                            <a href="course.html">Courses</a>
+                                            <a href="/Courses">Courses</a>
                                             <ul className="sub-menu">
-                                                <li><a href="course.html">Courses 1</a></li>
-                                                <li><a href="courses-2.html">Courses 2</a></li>
-                                                <li><a href="course-details.html">Course Details 1</a></li>
-                                                <li><a href="course-details-2.html">Course Details 2</a></li>
+                                                <li><a href="/Courses">Courses 1</a></li>
+                                                <li><a href="/Courses">Courses 2</a></li>
+                                                <li><a href="/Courses">Course Details 1</a></li>
+                                                <li><a href="/Courses">Course Details 2</a></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
@@ -79,8 +79,8 @@ function Headers() {
                                                 </li>
                                                 <li><a href="#">Pagelist 2</a>
                                                     <ul>
-                                                        <li><a href="course.html">Courses 1</a></li>
-                                                        <li><a href="courses-2.html">Courses 2</a></li>
+                                                        <li><a href="/Courses">Courses 1</a></li>
+                                                        <li><a href="/Courses">Courses 2</a></li>
                                                         <li><a href="course-details.html">Courses Details 1</a></li>
                                                         <li><a href="course-details-2.html">Courses Details 2</a></li>
                                                         <li><a href="event-details.html">Event Details</a></li>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { getProduct } from "../services/Api/product";
 import logo_white from "../assets/img/logo-white.svg"
 import recent_course_1 from "../assets/img/course/recent-course-1-1.jpg"
 import recent_course_2 from "../assets/img/course/recent-course-1-2.jpg"
@@ -7,6 +8,16 @@ import recent_course_2 from "../assets/img/course/recent-course-1-2.jpg"
 
 
 function Footer() {
+    const [data, setData] = useState([]);
+
+    const handleGetData = async () => {
+      const response = await getProduct();
+      setData(response.data);
+    };
+
+    useEffect(() => {
+      handleGetData();
+    }, []);
   return (
     <div>
         <footer className="footer-wrapper footer-layout1">
@@ -57,21 +68,27 @@ function Footer() {
                         <div className="widget  footer-widget">
                             <h3 className="widget_title">Recent Courses</h3>
                             <div className="recent-post-wrap">
-                                <div className="recent-course">
-                                    <div className="media-img"><a href="course-details.html"><img src={recent_course_1} alt="Blog Image" /></a></div>
-                                    <div className="media-body">
-                                        <div className="recent-course-meta"><a href="team-details.html">BY ANA WATSON</a></div>
-                                        <h4 className="post-title"><a className="text-inherit" href="course-details.html">Web Coding and Apache Basics theory</a></h4>
-                                    </div>
-                                </div>
-                                <div className="recent-course">
-                                    <div className="media-img"><a href="course-details.html"><img src={recent_course_2} alt="Blog Image" /></a></div>
-                                    <div className="media-body">
-                                        <div className="recent-course-meta"><a href="team-details.html">BY ANA WATSON</a></div>
-                                        <h4 className="post-title"><a className="text-inherit" href="course-details.html">Tadit Soul Can Tech Us About Web Docan</a></h4>
-                                    </div>
-                                </div>
-                            </div>
+  {data.slice(0, 2).map((item, index) => (
+    <div className="recent-course" key={index}>
+      <div className="media-img">
+        <a href="course-details.html">
+          <img src={recent_course_1} alt="Blog Image" />
+        </a>
+      </div>
+      <div className="media-body">
+        <div className="recent-course-meta">
+          <a href="team-details.html">{item.author}</a>
+        </div>
+        <h4 className="post-title">
+          <a className="text-inherit" href="course-details.html">
+            {item.name}
+          </a>
+        </h4>
+      </div>
+    </div>
+  ))}
+</div>
+
                         </div>
                     </div>
                 </div>
@@ -90,7 +107,7 @@ function Footer() {
                             <a href="#"><i className="fab fa-linkedin-in"></i>Linked In</a>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
         </footer>

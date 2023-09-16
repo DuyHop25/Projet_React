@@ -1,7 +1,6 @@
-
 @import './fontawesome.min.css';
 
-/* @charset "UTF-8"; */
+/* @charset "UTF-8"; */ 
 :root {
     --theme-color: #3747FF;
     --theme-color2: #FFCC33;
@@ -4354,7 +4353,8 @@ a.text-theme:hover,
 .breadcumb-wrapper {
     padding-top: 160px;
     padding-bottom: 30px;
-    background-color: var(--title-color);
+    /* background-color: var(--title-color); */
+    background-image: url(../img/breadcumb/breadcumb-bg.png);
     overflow: hidden;
     /* Medium devices */
 }
@@ -6053,7 +6053,7 @@ blockquote.vs-quote cite {
     left: 10px;
     right: 10px;
     bottom: 10px;
-    padding: 28px 35px 27px 34px;
+    padding: 8px 35px 27px 34px;
     z-index: 1;
     background-color: var(--white-color);
     border-radius: 20px;
@@ -6136,6 +6136,8 @@ blockquote.vs-quote cite {
 
 .media-style1 .media-img {
     margin-right: 20px;
+    width: 80px;
+    height: 80px;
 }
 
 .media-style1 .media-label {
@@ -6436,6 +6438,12 @@ blockquote.vs-quote cite {
     z-index: -1;
     --circle-bg: var(--theme-color2);
     --circle-angle: -45deg;
+}
+
+.img-box2 .img-1{
+ width: 629px;
+ height: 627px;
+ padding-bottom: 25px;
 }
 
 .img-box3 {
@@ -10273,26 +10281,17 @@ blockquote.vs-quote cite {
     background-color: var(--theme-color);
     margin-right: 25px;
     border-radius: 20px;
-    padding: 17px 20px 20px 20px;
     line-height: 1;
     text-align: center;
     transition: all ease 0.4s;
 }
 
-.event-style1 .event-date .day,
-.event-style1 .event-date .month {
-    display: block;
-    font-weight: bold;
+.event-style1 .event-date img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
 }
 
-.event-style1 .event-date .day {
-    font-size: 50px;
-    margin-bottom: 8px;
-}
-
-.event-style1 .event-date .month {
-    font-size: 14px;
-}
 
 .event-style1 .event-title {
     color: var(--white-color);

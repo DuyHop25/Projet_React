@@ -76,7 +76,7 @@ function Features() {
             <div className="col-lg-7 col-xxl-7">
               <div className="img-box3">
                 <div className="img-1 mega-hover">
-                  <img className="w-100" src={about} alt="About Img" />
+                  <img className="w-100" src="https://cms.kmin.edu.vn/uploads/QR_code_7860dbaa72.png" alt="About Img" />
                 </div>
                 <div className="shape-dotted jump"></div>
               </div>
@@ -94,10 +94,10 @@ function Features() {
               </p>
               <div className="media-style1">
                 <div className="media-img">
-                  <img src={author} alt="About Author" />
+                  <img src="https://cms.kmin.edu.vn/uploads/GV_Vu_Dinh_Bao_e40ae152cf.png" alt="About Author" />
                 </div>
                 <div className="media-body">
-                  <span className="media-label">Thomas Walkar</span>
+                  <span className="media-label">Vũ Đình Bảo</span>
                   <p className="media-info">President, Director</p>
                 </div>
               </div>

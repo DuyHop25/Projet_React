@@ -1,11 +1,9 @@
 import React from "react";
-import blog1 from "../assets/img/blog/blog-1-1.jpg";
-import blog2 from "../assets/img/blog/blog-1-2.jpg";
-import blog3 from "../assets/img/blog/blog-1-3.jpg";
 import teams1 from "../assets/img/team/team-s-1-1.png";
 import teams2 from "../assets/img/team/team-s-1-2.png";
 import teams3 from "../assets/img/team/team-s-1-3.png";
 import teams4 from "../assets/img/team/team-s-1-4.png";
+import { Event, QualifiedTeachers } from "../constants/dataHome";
 
 function Blog() {
   return (
@@ -13,9 +11,8 @@ function Blog() {
       <section className="space-top space-extra-bottom">
         <div className="container">
           <div
-            className="title-area text-center wow fadeInUp wow-animated"
+            className="title-area text-center wow fadeInUp"
             data-wow-delay="0.3s"
-            style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInUp" }}
           >
             <div className="sec-icon">
               <div className="vs-circle"></div>
@@ -24,18 +21,33 @@ function Blog() {
             <h2 className="sec-title">News &amp; Articles</h2>
           </div>
           <div
-            className="row vs-carousel slick-initialized slick-slider"
+            className="row vs-carousel"
             data-slide-show="2"
             data-md-slide-show="2"
           >
-            <div className="slick-list draggable">
-              <div
-                className="slick-track"
-                style={{ opacity: 1, width: "5256px", transform: "translate3d(-1314px, 0px, 0px)" }}
-              >
-                {/* Đoạn mã cho các phần tử của carousel */}
+            {/* Sử dụng map để lặp qua danh sách bài viết và hiển thị chúng */}
+            {Event.slice(0, 2).map((post, index) => (
+              <div className="col-lg-6" key={index}>
+                <div className="vs-blog blog-style1">
+                  <div className="blog-img">
+                    <img className="w-100" src={post.img} alt="Blog Img" />
+                  </div>
+                  <div className="blog-content">
+                    <div className="date-box">
+                      <span className="day">{post.day}</span>
+                      <span className="month">{post.MonthYear}</span>
+                      <span className="post-comment">
+                        {post.comments} Comments
+                      </span>
+                    </div>
+                    <h4 className="blog-title">
+                      <a href={post.link}>{post.nameEvent}</a>
+                    </h4>
+                    <p>{post.description}</p>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
           <div className="text-center mb-30">
             <a href="blog.html" className="vs-btn style3 mt-2">
@@ -46,7 +58,9 @@ function Blog() {
       </section>
       <section
         className="space-top space-extra-bottom background-image"
-        style={{backgroundImage: `url("http://127.0.0.1:5500/educino/assets/img/bg/blog-single-divider-bg-1-1.jpg")`}}
+        style={{
+          backgroundImage: `url("http://127.0.0.1:5500/educino/assets/img/bg/blog-single-divider-bg-1-1.jpg")`,
+        }}
       >
         <div className="container">
           <div className="row justify-content-between text-center text-lg-start">
@@ -68,18 +82,11 @@ function Blog() {
             <div className="col-lg-auto">
               <h6 className="mt-n1">Academic Leadership Team</h6>
               <div className="mini-avater">
-                <a href="team-details.html">
-                  <img src={teams1} alt="avater" />
-                </a>
-                <a href="team-details.html">
-                  <img src={teams2} alt="avater" />
-                </a>
-                <a href="team-details.html">
-                  <img src={teams3} alt="avater" />
-                </a>
-                <a href="team-details.html">
-                  <img src={teams4} alt="avater" />
-                </a>
+                {QualifiedTeachers.map((item, index) => (
+                  <a href="team-details.html" key={index}>
+                    <img src={item.img} alt="avater" style={{width:"90px", height:"90px"}}/>
+                  </a>
+                ))}
               </div>
             </div>
           </div>

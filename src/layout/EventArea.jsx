@@ -22,7 +22,7 @@ function EventArea() {
                 <div className="picture-1 mega-hover">
                   <img
                     className="w-100"
-                    src={about}
+                    src="https://cms.kmin.edu.vn/uploads/TNT_1_1_5f4b99406a.jpg"
                     alt="picture"
                   />
                 </div>
@@ -61,8 +61,7 @@ function EventArea() {
               {dataEvent.map((data) => (
                 <div className="event-style1">
                   <div className="event-date">
-                    <span className="day">{data.day}</span>
-                    <span className="month">{data.MonthYear}</span>
+                    <img src={data.img} alt="" />
                   </div>
                   <div className="event-body">
                     <h4 className="event-title">
