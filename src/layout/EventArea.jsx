@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Event } from "../constants/dataHome";
-import about from "../assets/img/about/about-1-2.jpg"
+// import about from "../assets/img/about/about-1-2.jpg"
 
 function EventArea() {
   const [dataEvent, setDataEvent] = useState([...Event]);
   return (
     <div>
       <section className="overflow-hidden space-top space-extra-bottom shape-mockup-wrap">
-      <div class="event-shape1"></div>
+      <div className="event-shape1"></div>
         <div className="container">
           <div className="row gx-80">
             <div

@@ -41,7 +41,7 @@ function Headers() {
                                         </li>
                                         <li> <a href="/blog">Blog</a> </li>
                                         <li >
-                                            <a href="/Courses">Courses</a>
+                                            <a href="/Projet_React/#/Courses">Courses</a>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="blog.html">Tutor</a>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getProduct } from "../services/Api/product";
 import { useDispatch } from "react-redux";
 import { addItem } from "../redux/slices/shoppingCart"; // Import action để thêm vào giỏ hàng
@@ -32,9 +32,9 @@ function Courses() {
     handleGetData();  
   }, []);
 
-  function formatPrice(price) {
-    return price.toLocaleString("en-US");
-  }
+  // function formatPrice(price) {
+  //   return price.toLocaleString("en-US");
+  // }
 
   return (
     <div>
@@ -45,7 +45,7 @@ function Courses() {
               <div key={index} className="col-sm-6 col-xl-4">
                 <div className="course-style1 has-border">
                   <div className="course-img">
-                    <a hreff="data-details.html">
+                    <a href="data-details.html">
                       <img className="w-100" src={product.img} alt="Course Img" />
                     </a>
                     <div className="course-category">
@@ -86,8 +86,8 @@ function Courses() {
                       {product.time}
                     </span>
                     <span className="cart"> 
-                      <span className="iconCart" onClick={() => handleShopping(product)}><Link to='/cart'> <i class="fa fa-shopping-cart" aria-hidden="true"></i>Buy</Link></span>
-                      <span className="iconCart" onClick={() => handleBuyClick(product)}s><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Card</span>
+                      <span className="iconCart" onClick={() => handleShopping(product)}><Link to='/cart'> <i className="fa fa-shopping-cart" aria-hidden="true"></i>Buy</Link></span>
+                      <span className="iconCart" onClick={() => handleBuyClick(product)}><i className="fa fa-cart-plus" aria-hidden="true"></i> Add To Card</span>
                     </span>
                   </div>
                 </div>

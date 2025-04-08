@@ -1,8 +1,7 @@
-import React from "react";
-import teams1 from "../assets/img/team/team-s-1-1.png";
-import teams2 from "../assets/img/team/team-s-1-2.png";
-import teams3 from "../assets/img/team/team-s-1-3.png";
-import teams4 from "../assets/img/team/team-s-1-4.png";
+// import teams1 from "../assets/img/team/team-s-1-1.png";
+// import teams2 from "../assets/img/team/team-s-1-2.png";
+// import teams3 from "../assets/img/team/team-s-1-3.png";
+// import teams4 from "../assets/img/team/team-s-1-4.png";
 import { Event, QualifiedTeachers } from "../constants/dataHome";
 
 function Blog() {
@@ -69,7 +68,7 @@ function Blog() {
                 Future Learn’s Purpose is to transform access to education.
               </h2>
               <p className="mb-4 pb-2 fs-md col-xl-11">
-                Sign up to our newsletter and we'll send fresh new courses and
+                Sign up to our newsletter and we will send fresh new courses and
                 special offers direct to your inbox, once a week.
               </p>
               <a href="contact.html" className="vs-btn style2">
