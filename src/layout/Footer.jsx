@@ -63,16 +63,16 @@ function Footer() {
                   <div className="menu-all-pages-container footer-menu">
                     <ul className="menu">
                       <li>
-                        <a href="course.html">All Courses</a>
+                        <a href="/programming_course/#course">All Courses</a>
                       </li>
                       <li>
-                        <a href="blog.html">Summer Sessions</a>
+                        <a href="/programming_course/#blog">Summer Sessions</a>
                       </li>
                       <li>
-                        <a href="course.html">Best Courses</a>
+                        <a href="/programming_course/#course">Best Courses</a>
                       </li>
                       <li>
-                        <a href="find-tutor.htm">Hire teachers</a>
+                        <a href="/programming_course/#find-tutor">Hire teachers</a>
                       </li>
                       <li>
                         <a href="academic-program.html">Program FAQs</a>

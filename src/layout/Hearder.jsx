@@ -17,10 +17,10 @@ function Headers() {
                             </div>
                         </div>
                         <div className="col col-xl-auto d-none d-md-block shop" style={{fontSize: "1.5em"}}>
-                            <a className="user-login" href="/cart"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"> Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" fill='orange'/></svg>Shopping</a>
+                            <a className="user-login" href="/Projet_React/#/cart"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"> Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" fill='orange'/></svg>Shopping</a>
                         </div>
                         <div className="col-md-auto text-center shop">
-                            <a href="/dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"> Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M448 160H320V128H448v32zM48 64C21.5 64 0 85.5 0 112v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zM448 352v32H192V352H448zM48 288c-26.5 0-48 21.5-48 48v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48H48z" 
+                            <a href="/Projet_React/#/dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"> Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M448 160H320V128H448v32zM48 64C21.5 64 0 85.5 0 112v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zM448 352v32H192V352H448zM48 288c-26.5 0-48 21.5-48 48v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48H48z" 
                                  fillter='#f5deb3'/></svg></a>
                                  
                         </div>
@@ -37,11 +37,11 @@ function Headers() {
                             <div className="col text-end text-xl-center">
                                 <nav className="main-menu menu-style1 d-none d-lg-block">
                                     <ul>
-                                        <li > <a href="/Projet_React/#/home">Demos</a>
+                                        <li > <a href="/programming_course/#/home">Demos</a>
                                         </li>
-                                        <li> <a href="/Projet_React/#/blog">Blog</a> </li>
+                                        <li> <a href="/programming_course/#/blog">Blog</a> </li>
                                         <li >
-                                            <a href="/Projet_React/#/Courses">Courses</a>
+                                            <a href="/programming_course/#/courses">Courses</a>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="blog.html">Tutor</a>

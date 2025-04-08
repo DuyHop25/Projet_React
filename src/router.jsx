@@ -13,7 +13,7 @@ const router = createHashRouter([
     element: <MainLayout />,
     children: [
       {
-        index: true, // Đây là trang mặc định khi vào "/"
+        index: true,
         element: <Navigate to="home" />,
       },
       {
