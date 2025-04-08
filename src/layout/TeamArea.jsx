@@ -1,11 +1,6 @@
 import React from "react";
 import divider_bg from "../assets/img/bg/divider-bg-1-1.jpg";
-import about from "../assets/img/about/about-1-2.png";
-import brand1 from "../assets/img/brand/brand-1-1.png";
-import brand2 from "../assets/img/brand/brand-1-2.png";
-import brand3 from "../assets/img/brand/brand-1-3.png";
-import brand4 from "../assets/img/brand/brand-1-4.png";
-import brand5 from "../assets/img/brand/brand-1-5.png";
+
 
 import { QualifiedTeachers } from "../constants/dataHome";
 function TeamArea() {

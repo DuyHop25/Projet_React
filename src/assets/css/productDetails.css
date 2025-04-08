@@ -1,0 +1,61 @@
+ProductDetails.css
+
+.product-details-container {
+    padding: 20px; /* Điều chỉnh khoảng cách xung quanh phần details */
+    background-color: #f0f0f0; /* Đổi màu nền của phần details */
+  }
+  
+  /* Điều chỉnh màu và font chữ của tiêu đề */
+  h2 {
+    color: #c82424;
+    font-weight: bold;
+  }
+  span{
+    color: #3bbaad;
+    font-size: 1.2rem;
+  }
+  /* Điều chỉnh màu của các trường dữ liệu */
+  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  /* Thay đổi màu icon Cart */
+  .iconCart_dt {
+    color: #ed9f22;
+  }
+  
+  /* Điều chỉnh màu của nút Buy */
+  .iconCart_dt{
+    font-weight: 600;
+    padding-top: 1rem;
+    display: inline-block;
+    color: #007bff;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 2rem;
+  }
+  .iconCart_dt i{
+    font-weight: 600;
+    color: #829d2a;
+    font-size: 2rem;
+  }
+  
+  
+  /* Điều chỉnh màu của nút Add To Cart khi hover */
+  .iconCart_dt:hover {
+    color: #ff6600;
+    cursor: pointer;
+
+  }
+  .buy:hover {
+    color: #ff6600;
+  }
+  
+
+.container__details{
+    padding: 2%;
+    background-color: #cdc4c4;
+}

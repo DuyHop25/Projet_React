@@ -1,0 +1,81 @@
+
+
+.course-list {
+  width: 100%;
+  border-collapse: collapse; /* Thêm border-collapse để loại bỏ khoảng cách giữa các ô */
+}
+
+.course-list th,
+.course-list td {
+  border: 1px solid #ddd; /* Thêm border cho cả th và td */
+  padding: 8px; /* Thêm padding cho các ô */
+}
+
+.course-list th {
+  background-color: #f0f0f0; /* Thêm background cho dòng đầu tiên */
+  text-align: center; /* Căn giữa nội dung trong dòng đầu */
+  font-weight: 700; /* Độ đậm cho dòng đầu */
+}
+
+.course-list tr:hover {
+  background-color: #f5f5f5; /* Hiển thị màu nền khác khi di chuột qua dòng */
+}
+
+/* Định dạng cho hàng */
+.Row {
+  border: 1px solid gray;
+  font-size: 2rem;
+}
+
+/* Định dạng cho cột */
+.Col {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+/* Loại bỏ dấu gạch đầu dòng của danh sách */
+ul li {
+  list-style: none;
+}
+
+/* Định dạng cho bảng */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+/* Định dạng cho hàng đầu tiên (hàng có nền) */
+.table tr:first-child {
+  background-color: #f0f0f0; /* Màu nền của hàng đầu tiên */
+  font-weight: bold; /* Độ đậm của chữ trong hàng đầu tiên */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.course-list .Th{
+  color: wheat;
+    background-color: #699797;
+}
+
+*{
+  font-size: 1rem;
+}
+.Row_th{
+  padding: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.ant-btn{
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.ant-btn:hover{
+  background-color: #b7c3c3;
+  transition: 0.5s;
+}

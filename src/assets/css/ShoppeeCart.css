@@ -1,0 +1,152 @@
+/* Đổi màu cho các tiêu đề quan trọng */
+.cart_page th.product_remove,
+.cart_page th.product_remove,
+.cart_page th.product_name,
+.cart_page th.product-price,
+.cart_page th.product_quantity,
+.cart_page th.product_total {
+    font-size: 1.5rem;
+    color: #ae5c4c; /* Màu đỏ */
+}
+
+/* Đặt style cho nút "Update Cart" */
+.cart_submit button[type="submit"] {
+  background-color: #FF5733; /* Màu nút là màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Đặt style cho nút "Apply coupon" */
+.coupon_inner button[type="submit"] {
+  background-color: #FF5733; /* Màu nút là màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Đặt style cho các tiền tệ (ví dụ: £) */
+.cart_price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #FF5733; /* Màu đỏ */
+}
+
+/* Đặt style cho nút "Proceed to Checkout" */
+.checkout_btn a {
+  background-color: #FF5733; /* Màu nút là màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none; /* Loại bỏ gạch chân dưới chữ */
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.checkout_btn a:hover {
+  background-color: #D9534F; /* Màu nền nút hover */
+}
+
+/* Đặt style cho nút tăng và giảm số lượng sản phẩm */
+.product_quantity svg {
+  font-size: 24px;
+  color: #FF5733; /* Màu đỏ */
+  cursor: pointer;
+}
+
+/* Đặt style cho ô nhập mã giảm giá */
+.coupon_inner input[type="text"] {
+  border: 1px solid #FF5733; /* Viền đỏ */
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Đổi màu nền của ô nhập mã giảm giá khi focus */
+.coupon_inner input[type="text"]:focus {
+  background-color: #FFF; /* Màu nền trắng */
+}
+
+
+.Form{
+    background-color: #dde2e2;
+    opacity: 2;
+}
+.Box__data{
+    background-color: rgb(231, 224, 214);
+}
+.title{
+    background-color: #b9b5b4;
+}
+
+/* Đổi màu tiêu đề "Cart Totals" và thiết lập font chữ đậm */
+.coupon_code.right h3 {
+    color: #FF5733; /* Màu đỏ */
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+  }
+  .cart_subtotal{
+    padding: 1rem 0px;
+    border-bottom: 1px solid rgb(119, 131, 26);
+  }
+  /* Đặt style cho các mục Subtotal, Shipping và Total */
+  .cart_subtotal p {
+    margin: 0;
+    font-size: 16px; /* Kích thước font */
+    margin-bottom: 10px; /* Khoảng cách dưới mỗi mục */
+  }
+  .cart_subtotal p {
+    margin: 0;
+    color: #265254;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  /* Đặt style cho số tiền (ví dụ: £100) */
+  .cart_subtotal .cart_amount {
+    font-weight: bold; /* Font đậm cho số tiền */
+    font-size: 18px; /* Kích thước font số tiền */
+    color: #622828; /* Màu chữ */
+  }
+  
+  /* Đặt style cho "Calculate shipping" */
+  .coupon_inner a {
+    text-decoration: underline; /* Gạch chân dưới chữ */
+    color: #FF5733; /* Màu đỏ */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px; /* Khoảng cách trên nút "Calculate shipping" */
+  }
+  
+  .coupon_inner a:hover {
+    color: #D9534F; /* Màu chữ khi hover */
+  }
+  
+  /* Đặt style cho nút "Proceed to Checkout" */
+  .checkout_btn a {
+    background-color: #FF5733; /* Màu nền nút là màu đỏ */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; /* Loại bỏ gạch chân dưới chữ */
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 15px; /* Khoảng cách trên nút "Proceed to Checkout" */
+  }
+  
+  .checkout_btn a:hover {
+    background-color: #D9534F; /* Màu nền nút khi hover */
+  }
+  #total{
+    font-size: 2rem;
+    color:#c22424
+  }
+  

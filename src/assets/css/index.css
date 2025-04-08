@@ -42,6 +42,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
+#buy{
+    color: #00A39A;
+}
+#buy:hover{
+    color: #254389;
+    cursor: pointer;
+    animation: 0.3s;
+}
 iframe {
     border: none;
     width: 100%;
@@ -11311,4 +11320,76 @@ blockquote.vs-quote cite {
     }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+.Menu_item{
+    cursor: pointer;
+    transition: 1s;
+}
+.activeDashboard{
+    background-color: #9a6b63;
+   
+}
+.text-back{
+    display: inline-block;
+    background: grey;
+    padding: 1rem;
+    color: #ff718a;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bold;
+}
+.rounded{
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    color: wheat;
+}
+
+.shop{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cart .buy{font-size: 1rem;}
+.cart .add{font-size: 1rem;}
+/* .course-style1 .course-meta span:last-child {
+}
+
+.course-style1 .course-meta span {
+    color: var(--body-color);
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 15px;
+} */
+
+.course-style1 .course-meta .cart{
+    float: right;
+    text-align: center;
+}
+
+
+.course-style1 .course-meta .cart .iconCart{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.course-style1 .course-meta .cart .iconCart:hover{
+    cursor: pointer;
+    color: #00A39A;
+    transition: 1s;
+}
+
+.course-style1 .course-meta {
+    padding-bottom: 0;
+}
+
+
+.product_img{
+    width: 100px;
+    height: 100px;
+}
+
+.product_img{
+    width: 100%;
+   
+}
