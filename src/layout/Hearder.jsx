@@ -37,9 +37,9 @@ function Headers() {
                             <div className="col text-end text-xl-center">
                                 <nav className="main-menu menu-style1 d-none d-lg-block">
                                     <ul>
-                                        <li > <a href="/home">Demos</a>
+                                        <li > <a href="/Projet_React/#/home">Demos</a>
                                         </li>
-                                        <li> <a href="/blog">Blog</a> </li>
+                                        <li> <a href="/Projet_React/#/blog">Blog</a> </li>
                                         <li >
                                             <a href="/Projet_React/#/Courses">Courses</a>
                                         </li>
