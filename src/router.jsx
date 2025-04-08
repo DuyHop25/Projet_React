@@ -33,7 +33,7 @@ const router = createHashRouter([
         element: <Cart />,
       },
       {
-        path: "Courses",
+        path: "courses",
         element: <CoursesPage />, 
       },
     ]
